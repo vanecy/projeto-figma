@@ -1,0 +1,91 @@
+ 
+*{
+    font-family: Constantia, serif;
+  font-weight: 600;
+  font-style: normal;
+}
+ 
+ 
+ header{
+   margin-top: -3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+ }
+ 
+ header h1{
+    font-size: 3.49vh;
+    margin-left: 0.36vh;
+}
+header ul {
+    font-size: 2.18vh;
+    gap: -6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+    
+}
+header ul li{
+    padding: 10px;
+    list-style-type: none;
+}
+header button{
+    width: 130px;
+    
+    margin-left: 800px;
+    padding-top: -80px;
+
+}
+button{
+    font-size: 09px;
+    color: #fff;
+    background-color: #473BF0;
+    border: 0px;
+    border-radius: 1.13vh;
+    height:25px;
+    font-weight: 100;
+   margin-bottom: -1px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   padding: 7px;
+}
+button:hover{
+    height:26px;
+    width: 131px;
+    font-size: 9.2px;
+    transition: transform 2s;
+    transform: translateX(4px);
+    background:linear-gradient(blue,red,blue) 1s ;
+}
+
+.botao{
+    margin-top: -45px;
+}
+
+article{
+    margin-top: 50px;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+article .p-one{
+    font-size: 10px;
+    color: rgba(255, 0, 0, 0.699);
+    margin-bottom: -8px;
+
+}
+article .p-two{
+    font-weight: 300;
+    font-size: 10px;
+    margin-top: -5px;
+    margin-bottom: 20px;
+    color:#161c2d98;
+}
+article h5{
+    font-size: 8px;
+    font-family: Constantia, serif;
+    
+}
